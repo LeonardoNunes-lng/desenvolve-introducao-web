@@ -1,0 +1,24 @@
+/* Color Theme Swatches in Hex 
+
+.principal { color: #672D15; }
+.Copy-of-Vintage-Cuban-Humidor-III-2-hex { color: #FEBA1E; }
+.Destque { color: #EB750B; }
+.Copy-of-Vintage-Cuban-Humidor-III-4-hex { color: #878424; }
+.background { color: #284011; } */
+
+html { 
+    background:  #878424;
+color:  #284011;
+font-size: 18px;
+font-family: Helvetica, sans-serif;}
+p {
+
+    text-indent: 1em; }
+
+    h1, h2, h3 {text-align: center;}
+h1{font-size: 1.8rem;  }
+h2{ font-size: 1.4rem; }
+h3{ font-size: 1.2rem; }
+.summary { text-align: right;}
+.main p{line-height: 1.5;}
+abbr{font-variant: small-caps;
