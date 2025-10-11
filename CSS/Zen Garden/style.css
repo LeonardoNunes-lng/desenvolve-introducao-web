@@ -1,0 +1,12 @@
+/* Color Theme Swatches in Hex */
+
+.principal { color: #672D15; }
+.Copy-of-Vintage-Cuban-Humidor-III-2-hex { color: #FEBA1E; }
+.Destque { color: #EB750B; }
+.Copy-of-Vintage-Cuban-Humidor-III-4-hex { color: #878424; }
+.background { color: #284011; }
+
+html { 
+    background:  #878424;
+color:  #284011;
+}
