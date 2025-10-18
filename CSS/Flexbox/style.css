@@ -1,0 +1,130 @@
+/* Color Theme Swatches in Hex 
+
+.principal { color: #672D15; }
+.Copy-of-Vintage-Cuban-Humidor-III-2-hex { color: #FEBA1E; }
+.Destque { color: #EB750B; }
+.Copy-of-Vintage-Cuban-Humidor-III-4-hex { color: #878424; }
+.background { color: #284011; } */
+
+.supporting footer {
+    display: flex; 
+     justify-content: space-evenly;
+}
+.benefits {
+    display:flex ;
+ 
+     border-top: solid 1px;
+     border-bottom: solid 1px; 
+    }
+
+.benefits p {
+    flex-basis:70%;
+
+}
+
+.benefits h3 {
+    order: 2;
+    flex-basis: 30%;
+    align-self: center;
+}
+.participation {
+     border-top: solid 1px;
+    display: flex;
+    flex-wrap: wrap; }
+        
+.participation h3, .participation p {
+flex-basis: 50%;
+flex-wrap: wrap;
+
+}
+.participation h3 {
+    align-self: center;
+}
+ 
+.page-wrapper {
+   position: relative;  }
+
+   .explanation {
+
+    width: 60%;
+border-right: #284011 solid 1px;
+padding-right: 2%;
+   }
+
+   #design-selection {
+    position:absolute;
+    top: 520px;
+    left: 62%;
+    padding-left: 1%;
+    padding-right: 1%;
+   }
+  
+.main  footer {
+
+    margin: 4%;
+  }
+  .main footer a { border: solid ;
+    padding: 0.5em;
+    display: inline-block ;
+
+     
+  }
+
+aside ul {
+    list-style-type: none;
+}
+aside ul li {
+    margin: 1em;
+    text-align: center; }
+
+.page-wrapper {     
+    width: 80%;
+    max-width: 1280px;
+    margin: auto;
+}
+#zen-intro {
+    height: 550px;
+}
+#design-archives {
+    display: none;
+}
+
+
+#zen-intro header {
+
+    background-color: #284011; 
+    color:#878424;
+
+}
+
+#zen-intro header h1, #zen-intro header h2  { display:inline-block; }
+
+
+#zen-intro header h1, #zen-intro header h2 {
+
+margin-left: 1em;
+margin-right: 1em;   
+}
+
+
+
+
+
+
+
+html { 
+    background:  #878424;
+color:  #284011;
+font-size: 18px;
+font-family: Helvetica, sans-serif;}
+p {
+
+    text-indent: 1em; }
+
+    h1, h2, h3 {text-align: center;}
+h1{font-size: 1.8rem;  }
+h2{ font-size: 1.4rem; }
+h3{ font-size: 1.2rem; }
+.summary { text-align: right;}
+.main p{line-height: 1.5;}
+abbr{font-variant: small-caps;
