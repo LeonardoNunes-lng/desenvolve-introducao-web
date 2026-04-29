@@ -1,0 +1,114 @@
+.logo {
+    display: block; /* Garante que ela não tenha espaçamentos estranhos */
+    width: 200px;   /* Ajuste o tamanho conforme necessário */
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.linha-pagina-cheia {
+    border: none;             /* Remove a borda padrão */
+    border-top: 3px solid black; /* Define a espessura e cor */
+    width: 50%;              /* Ocupa 100% da largura do contêiner pai */
+    center
+    margin: 30px 0;           /* Espaçamento vertical */
+    display: block;           /* Garante comportamento de bloco */
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+img { 
+   
+    position:absolute;
+    top: 20%;
+    left: 50%; 
+        transform: translateX(-50%);
+     
+}
+
+nav {
+  position: fixed;      /* fixa no topo */
+  top: 0;
+  width: 100%;
+  background-color: #0b2a6d;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+  
+:root {
+    --cor-principal: #0b2a6d;
+    --cor-secundaria: #eec367;
+    --cor-destaque: #14063a;
+}
+
+body {
+    background-color: var(--cor-secundaria);
+    color: var(--cor-principal);
+}
+
+h1, strong {
+    color: var(--cor-destaque);
+}
+
+.destaque {
+    color: var(--cor-secundaria);
+}
+
+.secao-educacao,
+#experiencia {
+    display: flex;
+    flex-direction: column; /* força vertical */
+}
+
+.item-educacao,
+.experiencia-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+}
+@media (min-width: 768px) {
+
+    body {
+        max-width: 900px;
+        margin: auto;
+    }
+
+    /* FOTO + CONTATO LADO A LADO */
+    .container-topo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .container-topo img {
+        width: 150px;
+        border-radius: 10px;
+    }
+
+    /* EXPERIÊNCIA EM BLOCOS */
+    .experiencia-item {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        padding: 15px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+}
